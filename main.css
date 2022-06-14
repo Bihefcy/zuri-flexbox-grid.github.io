@@ -1,0 +1,132 @@
+header {
+    height: 100px;
+    width: 1600px;
+    background-color: rgb(238, 170, 80);
+}
+header nav {
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+header nav ul {
+    margin: 0 30px 0 0;
+}
+
+header nav ul li {
+    float: center;
+    display: inline-block;
+    margin:0 0 15px 5px;
+    padding: 5px 10px 5px 10px;
+    border-style: none;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 7px;
+    text-transform: uppercase;
+
+}
+header nav ul li a {
+        text-decoration: none;
+        color: rgb(52, 100, 100);
+}
+
+.flex-container {
+    display: flex;
+    background-color: hsl(0, 0%, 95%);
+    flex-wrap: wrap;
+    width: 1440px;
+    height: 750px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container > div{
+    background-color: saddlebrown;
+    width: 250px;
+    height: 400px;
+}
+#icon {
+    
+    height: 50px;
+    width: 250px;
+    padding: 30px 0 0 30px;
+    margin: 0; 
+}
+h3 {
+    padding: 8px 0 0 30px;
+    color: hsl(0, 0%, 95%);
+    height: 50px;
+    margin: 0px;
+    font-size: 30px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+p {
+    padding: 30px 0 0 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+    height: 160px;
+    width: 200px;
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#click {
+    padding: 0px 0 0 30px;
+    height: 70px;
+    width: 140px;
+    margin: 0;
+}
+#button1 {
+    height: 30px;
+    width: 120px;
+    padding-top: 10px;
+    text-align: center;
+    color: ; 
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 95%);
+    font-size: 16px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+#button1:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+}
+#button2 {
+    height: 30px;
+    width: 120px;
+    padding-top: 10px;
+    text-align: center;
+    color: hsl(184, 100%, 22%); 
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 95%);
+    font-size: 16px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+#button2:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+}
+#button3 {
+    height: 30px;
+    width: 120px;
+    padding-top: 10px;
+    text-align: center;
+    color: ; 
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 95%);
+    font-size: 16px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+#button3:hover {
+    color: hsl(0, 0%, 95%);
+    background-color:hsl(179, 100%, 13%);
+}
